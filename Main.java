@@ -21,7 +21,7 @@ System.out.print("Enter Current Customer Pin #:");
 
 int pin = input.nextInt();
 
-//boolean found = false;
+
 Customer activeCustomer = getCustomerByPin(customers, pin);
 
 
